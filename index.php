@@ -9,6 +9,7 @@
 </head>
 <body>
     <h1>Hello World!</h1>
+    <h2>Welcome to my site! We will be up and running at some point!</h2>
 
     <?php
         include('test.php');
