@@ -13,6 +13,10 @@
 
     <p>Woah I'm doing it!!</p>
 
+    <div>
+        <p>Idk what this div will do, but testing auto deployment</p>
+    </div>
+
     <?php
         include('test.php');
     ?>
