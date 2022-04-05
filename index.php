@@ -11,6 +11,8 @@
     <h1>Hello World!</h1>
     <h2>Welcome to my site! We will be up and running at some point!</h2>
 
+    <p>Woah I'm doing it!!</p>
+
     <?php
         include('test.php');
     ?>
