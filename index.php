@@ -12,12 +12,7 @@
     <script src="Classes.min.js"></script>
 </head>
         <body>
-<<<<<<< HEAD
           <h1>I love you (but not more cause that's all you.) <3</h1>
-=======
-          <h1>I love you more x1000000000... <3</h1>
->>>>>>> 25f9587ad71e8ebec457bb6af2908c0af85461dd
-
           <?php
         include('test.php');
     ?>
