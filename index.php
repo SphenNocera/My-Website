@@ -12,7 +12,7 @@
     <script src="Classes.min.js"></script>
 </head>
         <body>
-          <h1>hmmph! (frowny face!) <3</h1>
+          <h1>did ur toast taste like clean dick <3</h1>
           <?php
         include('test.php');
     ?>
