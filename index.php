@@ -12,7 +12,7 @@
     <script src="Classes.min.js"></script>
 </head>
         <body>
-          <h1>I love you more x1000000000... <3</h1>
+          <h1>I love you more x0... <3</h1>
 
           <?php
         include('test.php');
