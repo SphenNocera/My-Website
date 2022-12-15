@@ -12,8 +12,7 @@
     <script src="Classes.js"></script>
 </head>
         <body>
-          <h1>Hello World!</h1>
-          <h2>Welcome to my site! We will be up and running at some point!</h2>
+          <h1>I love you more... <3</h1>
 
           <?php
         include('test.php');
