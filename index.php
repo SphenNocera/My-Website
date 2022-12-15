@@ -12,7 +12,7 @@
     <script src="Classes.min.js"></script>
 </head>
         <body>
-          <h1>did ur toast taste like clean dick <3</h1>
+          <h1>why are you inverted <3</h1>
           <?php
         include('test.php');
     ?>
