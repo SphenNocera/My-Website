@@ -8,7 +8,7 @@
           <script src="libraries/p5.js"></script>
     <script src="libraries/p5.collide2d.js"></script>
     <script src="libraries/p5.dom.js"></script>
-    <script src="Runner.js?2"></script>
+    <script src="Runner.js?3"></script>
     <script src="Classes.js"></script>
 </head>
         <body>
