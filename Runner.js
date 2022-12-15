@@ -6,7 +6,7 @@ function setup() {
   createCanvas(600, 600);
 
   plant1 = new Plant(100, height, 1, normalPot);
-  plant2 = new Plant(300, height, 1, tallPot);
+  plant2 = new Plant(300, height, 1.5, tallPot);
   plant3 = new Plant(500, height, 1, normalPot);
 }
 
