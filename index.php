@@ -18,13 +18,10 @@
     ?>
     <p id="demo"></p>
 
+    <form action="POST" action="inputName.php">
 <label for="fname">First name</label>
 <input type="text" id="fname">
-<button onClick="handleInput()">Submit</button>
-
-<script>
-  function handleInput() {
-    document.getElementById("demo").innerHTML = "Hello " + document.getElementById("fname").value;
-  }</script>
+<input type="submit" name="fname" value="">
+</form>
 </body>
 </html>
