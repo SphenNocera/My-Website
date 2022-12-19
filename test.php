@@ -11,5 +11,9 @@
         die("Connection failed: " . mysqli_connect_error());
     }
     echo "Connected successfully";
+
+    $sql = "show tables";
+    $result = $conn->query($sql);
+    echo $result;
     mysqli_close($conn);
 ?>
