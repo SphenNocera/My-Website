@@ -9,6 +9,9 @@ let waterDrop;
 let wcAngle = 0;
 
 function preload() {
+
+  angleMode(DEGREES);
+
   plantpots[0] = loadImage("images/plant pot.svg");
   watercan = loadImage("images/watering can.png");
   waterDrop = loadImage("images/water drop.png");
@@ -65,7 +68,7 @@ function drawWateringCan() {
 }
 
 function mousePressed() {
-  wcAngle = -PI / 3;
+  wcAngle = -60;
 }
 
 function mouseReleased() {

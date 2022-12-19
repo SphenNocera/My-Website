@@ -58,15 +58,21 @@ class Particle {
     this.spread = 10;
     this.pos = createVector(random(mouseX - this.spread - 70, mouseX + this.spread - 70), mouseY + 40); //random(mouseY - this.spread, mouseY + this.spread)
     this.vel = createVector(0, 0);
-    this.acc = createVector(0, 2);
+    this.acc = createVector(-2, 2);
     this.grav = 0.2;
     this.w = 7;
     this.h = this.w * 2;
+    this.angle = 30;
   }
   draw() {
     push();
-    image(waterDrop, this.pos.x, this.pos.y, this.w, this.h);
+    imageMode(CENTER);
+    translate(this.pos.x, this.pos.y);
+    rotate(this.angle);
+    image(waterDrop, 0, 0, this.w, this.h);
     pop();
+    this.angle -= 0.5;
+    this.angle = constrain(this.angle, 0, 30);
   }
   move() {
     this.acc.y += this.grav;
