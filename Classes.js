@@ -19,18 +19,28 @@ class Plant {
 
     //stem
     rectMode(CORNERS);
+    noStroke();
     fill(77, 194, 62);
     if (this.plantScale < 1) {
     } else {
-      rect(this.x - 5 * this.plantScale * 0.2, this.y - this.h - 30 * this.plantScale, this.x + 5 * this.plantScale * 0.2, this.y - this.h);
+      rect(this.x - 5 * this.plantScale * 0.1, this.y - this.h - 30 * this.plantScale, this.x + 5 * this.plantScale * 0.1, this.y - this.h);
     }
+    /*if (this.plantScale > 3) {
+      //push();
+      let stemw = this.plantScale;
+      let stemh = this.plantScale;
+      //translate(width / 2, height / 2);
+      rect(width / 2, height / 2, stemw, stemh);
+      //pop();
+    }
+    */
     pop();
   }
   grow() {
     //if (mouseX > this.x - this.w / 2 && mouseX < this.x + this.w / 2) {
-      if (this.collide()) {
-        this.plantScale += 0.005;
-      }
+    if (this.collide()) {
+      this.plantScale += 0.005;
+    }
     //}
   }
   collide() {
@@ -46,7 +56,7 @@ class Plant {
 class Particle {
   constructor() {
     this.spread = 10;
-    this.pos = createVector(random(mouseX - this.spread-70, mouseX + this.spread-70), mouseY+40); //random(mouseY - this.spread, mouseY + this.spread)
+    this.pos = createVector(random(mouseX - this.spread - 70, mouseX + this.spread - 70), mouseY + 40); //random(mouseY - this.spread, mouseY + this.spread)
     this.vel = createVector(0, 0);
     this.acc = createVector(0, 2);
     this.grav = 0.2;

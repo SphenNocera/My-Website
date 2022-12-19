@@ -8,10 +8,10 @@ let waterDrop;
 
 let wcAngle = 0;
 
-function preload(){
+function preload() {
   plantpots[0] = loadImage("images/plant pot.svg");
-  watercan = loadImage("images/watering can.svg");
-  waterDrop = loadImage("images/water drop.svg");
+  watercan = loadImage("images/watering can.png");
+  waterDrop = loadImage("images/water drop.png");
 }
 
 function setup() {
@@ -55,7 +55,7 @@ function draw() {
   //console.log(water.length);
 }
 
-function drawWateringCan(){
+function drawWateringCan() {
   push();
   imageMode(CENTER);
   translate(mouseX, mouseY);
@@ -64,10 +64,10 @@ function drawWateringCan(){
   pop();
 }
 
-function mousePressed(){
-  wcAngle = -PI/3;
+function mousePressed() {
+  wcAngle = -PI / 3;
 }
 
-function mouseReleased(){
+function mouseReleased() {
   wcAngle = 0;
 }
