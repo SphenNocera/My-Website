@@ -24,5 +24,5 @@ if (mysqli_num_rows($result) > 0) {
   echo "0 results";
 }
 
-mysqli_close($conn);
+//mysqli_close($conn);
 ?>
