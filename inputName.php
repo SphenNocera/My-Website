@@ -1,10 +1,11 @@
 <?php
 include("index.php");
   if(isset($_POST['fname'])){
-    echo("You clicked button one!");
-    //and then execute a sql query here
+    
+    $sql = "INSERT INTO myGuests (firstname)
+  VALUES $_POST['fname'];
 }
 else {
-echo" dhur";
+echo "error...";
 }
 ?>
