@@ -2,7 +2,7 @@
 include("index.php");
   if(isset($_POST['fname'])){
     
-    $sql = "INSERT INTO myGuests (firstname)
+    $sql = "INSERT INTO MyGuests (firstname)
   VALUES ('Stephen')";
 }
 else {

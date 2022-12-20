@@ -18,7 +18,7 @@
     ?>
     <p id="demo"></p>
 
-    <form method="POST" action="inputName.php">
+    <form method="POST" action="test.php">
 <label for="fname">First name</label>
 <input type="text" id="fname">
 <input type="submit" name="fname" value="Submit">
