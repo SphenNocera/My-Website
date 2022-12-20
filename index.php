@@ -14,7 +14,7 @@
         <body>
           <h1>why are you inverted <3</h1>
           <?php
-        include('test.php');
+        //include('test.php');
     ?>
     <p id="demo"></p>
 
