@@ -13,8 +13,8 @@
     echo "Connected successfully";
 
     //if(isset($_POST['fname'])){
-    
-        $sql = "INSERT INTO `MyGuests` (`id`, `firstname`, `lastname`, `email`, `reg_date`) VALUES (NULL, $_POST['fname'], '', NULL, current_timestamp())";
+        $fname = $_POST['fname'];
+        $sql = "INSERT INTO `MyGuests` (`id`, `firstname`, `lastname`, `email`, `reg_date`) VALUES (NULL, $fname, '', NULL, current_timestamp())";
     //}
     //else {
     //echo "error...";
