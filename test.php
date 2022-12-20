@@ -12,14 +12,20 @@
     }
     echo "Connected successfully";
 
-    if(isset($_POST['fname'])){
+    //if(isset($_POST['fname'])){
     
         $sql = "INSERT INTO MyGuests (firstname)
       VALUES ('Stephen')";
-    }
-    else {
-    echo "error...";
-    }
+    //}
+    //else {
+    //echo "error...";
+    //}
+
+    if (mysqli_query($conn, $sql)) {
+        echo "New record created successfully";
+      } else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+      }
 
 mysqli_close($conn);
 ?>
