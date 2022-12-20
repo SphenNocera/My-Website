@@ -1,5 +1,5 @@
 <?php
-
+    include("index.php");
     $servername = 'localhost';
     $database = "u392305125_locate";
     $username = 'u392305125_sphen';
