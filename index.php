@@ -20,8 +20,8 @@
 
     <form method="POST" action="test.php">
 <label for="fname">First name</label>
-<input type="text" id="fname">
-<input type="submit" name="fname" value="Submit">
+<input type="text" name="fname">
+<input type="submit" value="Submit">
 </form>
 </body>
 </html>
