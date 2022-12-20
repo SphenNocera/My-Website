@@ -21,7 +21,7 @@
     <form action="POST" action="inputName.php">
 <label for="fname">First name</label>
 <input type="text" id="fname">
-<input type="submit" name="fname" value="">
+<input type="submit" name="fname" value="Submit">
 </form>
 </body>
 </html>
